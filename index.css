@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.section{
+    margin: 10% 30%;
+}
+.header{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left: 220px;
+
+}
+.eye{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 2px 5px 5px rgb(39, 39, 39), -2px 5px 5px rgb(39, 39, 39), 5px 2px 5px rgb(39, 39, 39), -5px 2px 5px rgb(39, 39, 39);
+    position: relative;
+    top: 25px;
+    left: 70px;
+}
+.lid{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+     position: relative; 
+     top: -13px;
+     left: 90px;
+}
+.beak{
+    width: 0;
+    height: 0;
+    border-left: 80px solid rgb(240, 148, 9);
+    /* box-shadow: 2px 5px 5px rgb(39, 39, 39), -2px 5px 5px rgb(39, 39, 3 */
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    position: relative;
+    left: 130px ;
+    top: -10px;
+}
+
+.body{
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    background-color: yellow;
+    align-items: center;
+    justify-items: center;
+     margin-top: -90px; 
+}
+.leg{
+    width: 10px;
+    height: 100px;
+    background-color:rgb(240, 148, 9) ;
+    position: relative;
+    top: 270px;
+    left: 100px;
+
+}
+.leg2{
+    width: 10px;
+    height: 100px;
+    background-color:rgb(240, 148, 9) ;
+    position: relative;
+    top: 170px;
+    left: 140px;
+
+}
